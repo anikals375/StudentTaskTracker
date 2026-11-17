@@ -1,0 +1,25 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Node.js
+node_modules/
+dist/
+dist-ssr/
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+
+# AWS private keys
+*.pem
+*.key
